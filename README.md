@@ -1,3 +1,1 @@
-# TheOdinProject
-
-Repository for all Projects made through The Odin Project's Curriculum
+Odin Recipes Project made for The Odin Project Curriculum
