@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  margin: 0px auto;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 10px 250px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+main {
+  padding: 50px 0px;
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero {
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero h4 {
+  margin: 0px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero button {
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 3px 20px;
+  border-radius: 5px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  align-self: flex-start;
+  border: none;
+}
+
+main img {
+  width: 500px;
+  height: 250px;
+}
+
+section {
+  padding: 20px 350px;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.card img {
+  border: 2px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.card p {
+  text-align: center;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 250px;
+  background-color: #e5e7eb;
+}
+
+article p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+article h6 {
+  align-self: flex-end;
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: bolder;
+}
+aside {
+  padding: 50px;
+}
+
+.container2 {
+  margin: 0px auto;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 200px;
+  border-radius: 10px;
+  width: 800px;
+  gap: 100px;
+}
+
+.calltoaction h1 {
+  font-size: 36px;
+  color: #f9faf8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.calltoaction p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container2 button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  border: 1px solid #f9faf8;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
