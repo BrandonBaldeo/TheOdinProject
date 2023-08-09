@@ -14,17 +14,17 @@ const playRound = (
   computerSelection = getComputerChoice()
 ) => {
   playerSelection = prompt('Pick "rock","paper" or "scissors');
-  if (computerSelection == 'rock' && playerSelection == 'scissors') {
+  if (computerSelection === 'rock' && playerSelection === 'scissors') {
     return ['You Lose! Rock beats Scissors', -1];
-  } else if (computerSelection == 'paper' && playerSelection == 'scissors') {
+  } else if (computerSelection === 'paper' && playerSelection === 'scissors') {
     return ['You Win! Scissors beats Paper', 1];
-  } else if (computerSelection == 'paper' && playerSelection == 'rock') {
+  } else if (computerSelection === 'paper' && playerSelection === 'rock') {
     return ['You Lose! Paper beats Rock', -1];
-  } else if (computerSelection == 'scissors' && playerSelection == 'rock') {
+  } else if (computerSelection === 'scissors' && playerSelection === 'rock') {
     return ['You Win! Rock beats Scissors', 1];
-  } else if (computerSelection == 'scissors' && playerSelection == 'paper') {
+  } else if (computerSelection === 'scissors' && playerSelection === 'paper') {
     return ['You Lose! Scissors beats Paper', -1];
-  } else if (computerSelection == 'rock' && playerSelection == 'paper') {
+  } else if (computerSelection === 'rock' && playerSelection === 'paper') {
     return ['You Win! Paper beats Rock', 1];
   } else {
     return ['Tie', 0];
@@ -38,9 +38,9 @@ const game = () => {
       playerSelection,
       computerSelection
     );
-    if (resultNumber == -1) {
+    if (resultNumber === -1) {
       computerScore++;
-    } else if (resultNumber == 1) {
+    } else if (resultNumber === 1) {
       playerScore++;
     }
     console.log(resultString);
